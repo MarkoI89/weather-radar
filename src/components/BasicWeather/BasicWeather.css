@@ -1,0 +1,84 @@
+.additionalDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.additionalDetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 1.2em;
+  text-align: left;
+  width: 100%;
+  align-items: flex-start;
+}
+
+.additionalDetailsFlex1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.additionalDetailsFlex2 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.additionalDetailsFlex3 {
+  display: flex;
+  padding: 20px;
+}
+
+
+.additionalDetailsFlex2 img{
+  width: 70px;
+}
+
+.additionalDetailsFlex3 img{
+  width: 70px;
+}
+
+.additionalDetailsFlex3 p{
+  margin: 5px;
+}
+
+.currentWeather {
+  color: white;
+}
+
+.currentWeatherContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(5, 33, 86, 0.25);
+  width: 90%;
+  
+}
+
+.mainTempDetails {
+  padding: 50px;
+  background-color: rgba(5, 33, 86, 0.25);
+  width: 20%;
+}
+
+.mainTempDetails > h2 {
+  font-size: 60px;
+  font-weight: 100;
+  margin: 0;
+}
+
+.mainTempDetails p {
+  font-size: 20px;
+}
+
+.sunPosition {
+  display: flex;
+  justify-content: space-around;
+}
+
+.astroDetails{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

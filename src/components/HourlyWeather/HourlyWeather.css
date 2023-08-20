@@ -1,0 +1,18 @@
+.hourlyData{
+    display: flex;
+    /* border-top: 1px solid white;
+    border-bottom: 1px solid white ; */
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hourlyDetails{
+    padding: 30px;
+}
+
+.hourlyDataBox{
+    background-color: rgba(5, 33, 86, 0.25);
+    width: 90%;
+    margin: 30px;
+}
