@@ -39,7 +39,7 @@ export default function DailyWeather({ location }) {
   useEffect(() => {
     axios
       .get(
-        `http://api.weatherapi.com/v1/forecast.json?key=b24b976a466042f9a95184845232502&q=${location}&days=8&aqi=no&alerts=no`
+        `http://api.weatherapi.com/v1/forecast.json?key=${process.env.REACT_APP_API_KEY}&q=${location}&days=8&aqi=no&alerts=no`
       )
       .then((response) => {
         setDailyData(response.data);

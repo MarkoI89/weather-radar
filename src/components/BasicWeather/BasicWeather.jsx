@@ -48,7 +48,7 @@ export default function BasicWeather() {
   const getAstroData = () => {
     axios
       .get(
-        `http://api.weatherapi.com/v1/astronomy.json?key=b24b976a466042f9a95184845232502&q=${location}&dt=2023-08-19`
+        `http://api.weatherapi.com/v1/astronomy.json?key=${process.env.REACT_APP_API_KEY}&q=${location}&dt=2023-08-19`
       )
       .then((response) => {
         setAstroData(response.data);
@@ -59,7 +59,7 @@ export default function BasicWeather() {
   useEffect(() => {
     axios
       .get(
-        `http://api.weatherapi.com/v1/current.json?key=b24b976a466042f9a95184845232502&q=${location}&aqi=yes`
+        `http://api.weatherapi.com/v1/current.json?key=${process.env.REACT_APP_API_KEY}&q=${location}&aqi=yes`
       )
       .then((response) => {
         setWeatherData(response.data);
